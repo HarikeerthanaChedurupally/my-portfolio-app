@@ -1,12 +1,14 @@
 
 import { Link } from "react-router-dom";
 import "./Sidebar.css";
+import profile from "../assets/profile.jpg";
+
 
 function Sidebar() {
   return (
     <aside className="sidebar">
       <h2>Harikeerthana Chedurupally</h2>
-      <img src="/profile.jpg" alt="Simon Doe" className="profile-img" />
+      <img src={profile} alt="Simon Doe" className="profile-img" />
       <p>Hi, my name is Harikeerthana and I'm a Front-End Developer.</p>
 
       <div className="social-icons">

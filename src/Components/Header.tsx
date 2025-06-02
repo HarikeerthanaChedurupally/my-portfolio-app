@@ -1,5 +1,7 @@
 
 import "./Header.css";
+import profile from "../assets/profile.jpg";
+
 
 function Header() {
   return (
@@ -28,7 +30,7 @@ function Header() {
         </div>
       </div>
       <div className="hero-image">
-        <img src="/profile.jpg" alt="Simon" />
+        <img src={profile} alt="keerthana" />
       </div>
     </section>
   );
