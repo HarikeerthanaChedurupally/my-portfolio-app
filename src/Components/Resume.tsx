@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./Resume.css";
 import resumePDF from "../assets/resume.pdf";
 
