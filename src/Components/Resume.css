@@ -1,0 +1,31 @@
+.resume-container {
+  padding: 30px;
+  text-align: center;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.resume-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #1f7a5d;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #42b983;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.resume-preview {
+  width: 80%;
+  height: 80vh;
+  margin: 0 auto;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}

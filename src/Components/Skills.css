@@ -1,0 +1,29 @@
+.skills {
+    padding: 1rem 0;
+  }
+  
+  .skills h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skills-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .skill-card {
+    flex: 1 1 200px;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .skill-icon {
+    font-size: 2rem;
+    color: seagreen;
+  }
+  

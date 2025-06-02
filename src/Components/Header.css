@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  
+  .intro {
+    flex: 1;
+  }
+  
+  .intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .intro h2 {
+    color: gray;
+    margin-bottom: 1rem;
+  }
+  
+  .intro p {
+    line-height: 1.5;
+  }
+  
+  .intro a {
+    color: seagreen;
+    text-decoration: none;
+  }
+  
+  .buttons {
+    margin-top: 1rem;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .green {
+    background-color: #4CAF90;
+    color: white;
+  }
+  
+  .dark {
+    background-color: #333;
+    color: white;
+  }
+  
+  .hero-image img {
+    width: 200px;
+    border-radius: 10px;
+  }
+  
