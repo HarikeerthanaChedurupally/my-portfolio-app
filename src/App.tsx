@@ -3,7 +3,7 @@
 // import viteLogo from '/vite.svg'
 
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {Routes, Route } from "react-router-dom";
 import Sidebar from "./Components/Sidebar";
 import Home from "./Components/Home";
 import Contact from "./Components/Contact";
@@ -22,7 +22,6 @@ function App() {
   //   </div>
   // );
   return (
-    <Router>
       <div className="app-container">
         <Sidebar />
         <div className="main-content">
@@ -36,7 +35,6 @@ function App() {
           </Routes>
         </div>
       </div>
-    </Router>
   );
 }
 
